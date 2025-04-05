@@ -1,0 +1,28 @@
+# 1. Bỏ qua môi trường ảo (không cần đẩy lên)
+.venv/
+
+# 2. Bỏ qua dữ liệu gốc
+data/
+
+# 3. Bỏ qua mô hình đã huấn luyện và lịch sử training
+outputs/models/
+outputs/models/*
+outputs/predictions/
+outputs/predictions/*
+
+# 4. Bỏ qua ảnh kết quả (chỉ giữ mã nguồn)
+outputs/figures/
+outputs/figures/*
+
+# 5. Bỏ qua file cache của Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 6. Bỏ qua file hệ thống của Windows & Mac
+.DS_Store
+Thumbs.db
+
+# 7. Bỏ qua cài đặt của VS Code (nếu dùng)
+.vscode/
